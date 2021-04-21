@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Application</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="public/client.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="public/index.css">
+    
+</head>
+
+<body>
+    <!--nav bar design-->
+    <nav>
+
+    </nav>
+    <!--chat app heading-->
+    <div class="heading">
+        <div class="head_content content_left">
+            <div id="name">
+                <p>SUGGESTIONS TO START CHAT</p>
+            </div>
+        </div>
+        <div class="head_content content_right">
+            <div id="name">
+                <p>CONNECT WITH GROUP OF FRIENDS</p>
+            </div>
+        </div>
+    </div>
+    <!--chat app body-->
+    <div class="container">
+        <!--chat app left body-->
+        <div class="div_left">
+            <button class="copy1 sugg" onclick="CopyPaste1()">Hello, How are you?</button>
+            <button class="copy2 sugg" onclick="CopyPaste2()">Hey! What’s up?</button>
+            <button class="copy3 sugg" onclick="CopyPaste3()">How’s it going?</button>
+            <button class="copy4 sugg" onclick="CopyPaste4()">Hi, How are you doing?</button>
+            <button class="copy5 sugg" onclick="CopyPaste5()">Long time no see!</button>
+            <button class="copy6 sugg" onclick="CopyPaste6()">So, what have you been up to lately?</button>
+            <button class="copy7 sugg" onclick="CopyPaste7()">So, where are you from?</button>
+        </div>
+        <!--chat app right body-->
+        <div class="div_right">
+            <div class="message_container"></div>
+        </div>
+    </div>
+    <!--send message container-->
+    <div class="footer">
+        <div class="footer_left">
+            <button class="copy8 sugg" style="margin-bottom: 8px;" onclick="CopyPaste8()">Nice to connect with you</button>
+        </div>
+        <div class="send footer_right">
+            <form action="#" id="send_container">
+                <a href="#" class="choose_file" onclick="ChooseImage()">
+                    <i class="fa fa-plus" style="color: #b34062;">
+                        <input type="file" id="imagefile" onchange="previewFile();" accept="image/*"
+                            style="display: none;" />
+                    </i>
+                </a>
+                <input type="text" style="font-size: 20px;" name="messageInp" id="messageInp">
+                <button class="butn">Send</button>
+            </form>
+        </div>
+    </div>
+    <img id="imga">
+
+</body>
+
+</html>

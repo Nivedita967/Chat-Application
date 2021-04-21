@@ -1,0 +1,108 @@
+body{
+    font-size: 20px;
+}
+.butn{
+    background-color: #b34062;
+}
+.sugg{
+    width: 90%;
+    margin: 10px 0 0 15px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:#ffa2bd;
+    text-shadow: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 1000;
+}
+.container{
+    display: flex;
+    background-color: #b34062;
+    width: 1108.5px;
+    margin: auto;
+    height: 60vh;
+}
+.heading{
+    display: flex;
+    height: 60px;
+    margin: 50px 73px 0px 72.5px;
+    background-color: #ffa2bd;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.head_content{  
+    display: flex;
+    padding-left: 15px;
+}
+.content_left{
+    width: 297px;
+    border-right: 2px solid white;
+}
+#name > p {
+    font-size: 18px;
+    margin-block-start: 15px;
+    margin-block-end: 0px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.div_left{
+    width: 312px;
+    border-right: 2px solid white;
+}
+.div_right{
+    width: 70.8%;
+    transform: rotate(180deg);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.message_container {
+    overflow: hidden;
+    transform: rotate(180deg);
+}
+.message{
+    background-color: #ffa2bd;
+    width:auto;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+.left{
+    float: left;
+    clear: both;
+    background-color: aliceblue;
+}
+.right{
+    float: right;
+    clear: both;
+    background-color: aliceblue;
+}
+.footer{
+    display: flex;
+    margin: auto;
+}
+.footer_left{
+    width: 312px;
+    background-color: #b34062;
+    margin-left: 72.5px;
+    border-right: 2px solid white;
+    border-bottom-left-radius: 5px;
+}
+.send{
+    background-color: #ffa2bd;
+    width: 795px;
+    border-bottom-right-radius: 5px;
+}
+form{
+    height: 45px;
+    padding: 5px;
+    display: flex;
+    text-align: center;
+}
+#messageInp{
+    width: 850px;
+}
+.fa-plus{
+    border: 2px solid #b34062;
+    border-radius: 100%;
+    padding: 6px;
+    margin: 1px 8px 10px 8px;
+}
