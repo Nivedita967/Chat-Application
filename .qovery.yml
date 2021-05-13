@@ -1,0 +1,11 @@
+---
+application:
+  name: "chat-application"
+  project: "Chat-Application"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-chat-application"
+  routes:
+  - application_name: "chat-application"
+    paths:
+    - "/*"
